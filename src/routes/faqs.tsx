@@ -41,7 +41,7 @@ export default function FaqsPage() {
             className="mx-auto lg:aspect-[5/7] lg:w-full"
             width="420"
             height="640"
-            src="../images/357837853_294556966465385_1343375527504111735_n.jpg"
+            src="images/357837853_294556966465385_1343375527504111735_n.jpg"
           />
         </ArticleMedia>
       </Article>
