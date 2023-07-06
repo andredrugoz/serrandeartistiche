@@ -1768,5 +1768,13 @@ select {
   }
 }
 button.btn-tr,button.btn-tr:hover { 
-  border: 1px solid #212529;
+      outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 1px #830000;
+    background: #830000;
 }
