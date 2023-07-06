@@ -163,6 +163,7 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
+  -webkit-appearance: button; /* 1 */
   background-color: transparent; /* 2 */
   background-image: none; /* 2 */
 }
@@ -196,6 +197,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 [type='search'] {
+  -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 /*
@@ -296,6 +298,7 @@ iframe,
 embed,
 object {
   display: block; /* 1 */
+  vertical-align: middle; /* 2 */
 }
 /*
 Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
@@ -1767,6 +1770,4 @@ select {
     color: rgb(148 163 184 / var(--tw-text-opacity));
   }
 }
-.copyright {
-  color:#000;
-}
+.copyright {color: #000;}
