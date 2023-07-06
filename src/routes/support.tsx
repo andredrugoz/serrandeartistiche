@@ -1,14 +1,40 @@
+import React from 'react';
+import { Divider } from 'semantic-ui-react';
+import emailjs from "emailjs-com";
 import { Article, ArticleContent, ArticleMedia } from '@/components/article'
 import { Layout } from '@/components/layout'
 import { useState } from 'react'
 import immagine from "../images/358579785_806237231159559_1116270722449275961_n.jpg"
+import 'bootstrap/dist/css/bootstrap.css'
 
-export default function SupportPage() {
-  const [success, setSuccess] = useState(false)
+emailjs.init('SN92J-1D6ikUavlWa');
 
-  function handleClick(e) {
+const ContactForm = () => {
+  const [formStatus, setFormStatus] = React.useState('Invia')
+  const onSubmit = (e) => {
     e.preventDefault()
-    setSuccess(true)
+    setFormStatus('Invio in corso...')
+    const { name, email, message } = e.target.elements
+    
+    let conFom = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    }
+    console.log(conFom)
+
+    emailjs.send("service_j64fetm","template_5rek838",{
+      name: name.value,
+      to_name: "serrandeartistiche",
+      from_name: name.value,
+      message: message.value,
+      })
+      .then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+      }, function(error) {
+        console.log('FAILED...', error);
+    });
+    setFormStatus('Inviato');
   }
 
   return (
@@ -20,62 +46,28 @@ export default function SupportPage() {
         <p>📲 +39 347 6428 424</p>
         <p>📥 serrandeartistiche@gmail.com</p>
           {/* create a short contact form with name, email, and message */}
-          <form className="space-y-4">
-            <div>
-              <label
-                className="block text-lg font-medium leading-10"
-                htmlFor="name"
-              >
-                NOME
+          <form onSubmit={onSubmit} id="myForm">
+            <div className="mb-3">
+              <label className="form-label" htmlFor="name">
+                Nome
               </label>
-              <input
-                className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
-                type="text"
-                id="name"
-                name="name"
-              />
+              <input className="form-control" type="text" id="name" required />
             </div>
-            <div>
-              <label
-                className="block text-lg font-medium leading-10"
-                htmlFor="email"
-              >
-                EMAIL
+            <div className="mb-3">
+              <label className="form-label" htmlFor="email">
+                Email
               </label>
-              <input
-                className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
-                type="email"
-                id="email"
-                name="email"
-              />
+              <input className="form-control" type="email" id="email" required />
             </div>
-            <div>
-              <label
-                className="block text-lg font-medium leading-10"
-                htmlFor="message"
-              >
-                MESSAGGIO
+            <div className="mb-3">
+              <label className="form-label" htmlFor="message">
+                Messaggio
               </label>
-              <textarea
-                className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
-                id="message"
-                name="message"
-              />
+              <textarea className="form-control" id="message" required />
             </div>
-
-            <button
-              type="submit"
-              onClick={handleClick}
-              className="-mt-px inline-flex cursor-pointer justify-center whitespace-nowrap rounded-sm border-0 bg-gradient-to-r from-secondary-500 to-secondary-400 py-4 px-7 text-center font-medium leading-4 text-white no-underline shadow-lg"
-            >
-              Invia
+            <button className="btn btn-tr" type="submit">
+              {formStatus}
             </button>
-
-            {success && (
-              <div className="mt-2 text-xs italic text-gray-500">
-                🎉 Messaggio inviato!
-              </div>
-            )}
           </form>
         </ArticleContent>
 
@@ -90,3 +82,4 @@ export default function SupportPage() {
     </Layout>
   )
 }
+export default ContactForm
