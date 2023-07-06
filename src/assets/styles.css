@@ -1570,6 +1570,7 @@ select {
   }
   .lg\:justify-start {
     justify-content: flex-start;
+    color: black;
   }
   .lg\:justify-end {
     justify-content: flex-end;
