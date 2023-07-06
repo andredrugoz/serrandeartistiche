@@ -14,7 +14,7 @@ export default function FaqsPage() {
             Come avviene il sopralluogo?
             </summary>
             <p>
-            Da oltre 5 anni siamo l’azienda di riferimento nel ripristino delle serrande, offrendo i migliori street artist in circolazione e garantendo i risultati, fissa un sopralluogo gratuito dalla nostra <a href="/holly-react/support">pagina di Contatti</a>. 
+            Da oltre 5 anni siamo l’azienda di riferimento nel ripristino delle serrande, offrendo i migliori street artist in circolazione e garantendo i risultati, fissa un sopralluogo gratuito dalla nostra <a href="/support">pagina di Contatti</a>. 
             </p>
           </details>
           <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300">
