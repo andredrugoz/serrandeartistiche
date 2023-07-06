@@ -1,6 +1,7 @@
 import { Article, ArticleContent, ArticleMedia } from '@/components/article'
 import { Layout } from '@/components/layout'
 import { useState } from 'react'
+import immagine from "../images/358579785_806237231159559_1116270722449275961_n.jpg"
 
 export default function SupportPage() {
   const [success, setSuccess] = useState(false)
@@ -82,7 +83,7 @@ export default function SupportPage() {
           <img
             alt="serrande artistiche"
             className="mx-auto lg:aspect-[5/7] lg:w-full"
-            src="../images/358579785_806237231159559_1116270722449275961_n.jpg"
+            src={immagine}
           />
         </ArticleMedia>
       </Article>

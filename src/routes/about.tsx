@@ -1,5 +1,6 @@
 import { Article, ArticleContent, ArticleMedia } from '@/components/article'
 import { Layout } from '@/components/layout'
+import immagine from "../images/355444395_776167860817189_6641656214310492860_n.jpg"
 
 export default function AboutPage() {
   return (
@@ -18,7 +19,7 @@ export default function AboutPage() {
             className="mx-auto lg:aspect-[5/7] lg:w-full"
             width="420"
             height="640"
-            src="../images/355444395_776167860817189_6641656214310492860_n.jpg"
+            src={immagine}
           />
         </ArticleMedia>
       </Article>

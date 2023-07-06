@@ -1,5 +1,6 @@
+import logo from "../images/logo_sa.jpg"
 export function Logo({ className }: { className?: string }) {
   return (
-    <img src='../images/logo_sa.jpg' />
+    <img src={logo} />
   )
 }
