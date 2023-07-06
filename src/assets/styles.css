@@ -282,7 +282,7 @@ button.btn-tr, button.btn-tr:hover {
 .copy {
   color:#000;
 }
-/* 
+/*
 Make sure disabled buttons don't get the pointer cursor.
 */
 :disabled {
@@ -1556,6 +1556,7 @@ select {
   }
   .lg\:justify-start {
     justify-content: flex-start;
+    color: #000;
   }
   .lg\:justify-end {
     justify-content: flex-end;
