@@ -279,9 +279,9 @@ button,
 .copy {
   color:#000!important; 
 }
-.btn,
-.btn:hover {
-  border: 1px solid #000!important;
+.btn-tr,
+.btn-tr:hover {
+  border: 1px solid #3c3c3c!important;
 }
 /*
 Make sure disabled buttons don't get the pointer cursor.
