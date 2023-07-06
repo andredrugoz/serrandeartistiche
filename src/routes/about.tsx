@@ -5,25 +5,20 @@ export default function AboutPage() {
   return (
     <Layout>
       <Article>
-        <ArticleContent title="About">
+        <ArticleContent title="Chi siamo">
           {/* prettier-ignore */}
-          <p>
-            Holly is a free HTML/CSS landing page designed and developed by <a href="https://twitter.com/pacovitiello">@pacovitiello</a> and <a href="https://twitter.com/DavidePacilio">@DavidePacilio</a>!
-          </p>
-          <p>
-            Holly is suitable for all kind of startups, it's easily
-            customizable, and it's downloadable for personal and commercial use.
-          </p>
-          <p>This template is distributed under the MIT License.</p>
+          <p>Siamo un’azienda leader nel ripristino di serrande a Milano e in tutto  il territorio nazionale.</p>
+          <p>Mettiamo a tua disposizione una  squadra di esperti altamente qualificati che si dedicano con passione a trasformare la tua saracinesca in un’opera d’arte unica e irresistibile.</p>    
+          <p>La nostra missione è garantire risultati di alta qualità, offrendo servizi di livello superiore che soddisfano le tue aspettative.</p>
         </ArticleContent>
 
         <ArticleMedia>
           <img
-            alt="Lorem Picsum"
+            alt="serrande artistiche"
             className="mx-auto lg:aspect-[5/7] lg:w-full"
             width="420"
             height="640"
-            src="https://picsum.photos/420/640?grayscale"
+            src="../images/355444395_776167860817189_6641656214310492860_n.jpg"
           />
         </ArticleMedia>
       </Article>

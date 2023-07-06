@@ -5,7 +5,7 @@ import { useState } from 'react'
 export function NewsletterForm({
   className,
   onSubmit,
-  submitText = 'Submit',
+  submitText = 'Invia',
 }: {
   className?: string
   onSubmit: (email: string) => Promise<any>
@@ -48,7 +48,7 @@ export function NewsletterForm({
         />
         {success && (
           <div className="mt-2 text-xs italic text-gray-500">
-            Email submitted successfully!
+            Email inviata!
           </div>
         )}
       </div>

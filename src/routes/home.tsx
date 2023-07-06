@@ -6,8 +6,8 @@ export default function HomePage() {
   return (
     <Layout>
       <Hero
-        title="Landing template for startups"
-        content="Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever."
+        title="STREET ART e RIQUALIFICAZIONE URBANA"
+        content="Mettiamo a tua disposizione una squadra di esperti altamente qualificati che si dedicano con passione a trasformare la tua saracinesca in un’opera d’arte unica e irresistibile."
         illustration={<HeroIllustration />}
       />
     </Layout>

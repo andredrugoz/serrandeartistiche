@@ -5,47 +5,32 @@ export default function FaqsPage() {
   return (
     <Layout>
       <Article>
-        <ArticleContent title="FAQ's">
-          <p>Add your FAQ content here.</p>
+        <ArticleContent title="FAQ">
           <details
             className="mt-4 block rounded-sm border px-4 open:border-primary-400 hover:border-primary-300"
             open
           >
             <summary className="-mx-4 cursor-pointer border-primary-200 py-3 px-4">
-              What is Holly?
+            Come avviene il sopralluogo?
             </summary>
             <p>
-              Holly is a free HTML/CSS landing page designed and developed by{' '}
-              <a href="https://twitter.com/pacovitiello">@pacovitiello</a> and{' '}
-              <a href="https://twitter.com/DavidePacilio">@DavidePacilio</a>!
-            </p>
-            <p>
-              Holly is suitable for all kind of startups, it's easily
-              customizable, and it's downloadable for personal and commercial
-              use.
+            Da oltre 5 anni siamo l’azienda di riferimento nel ripristino delle serrande, offrendo i migliori street artist in circolazione e garantendo i risultati, fissa un sopralluogo gratuito dalla nostra <a href="/holly-react/support">pagina di Contatti</a>. 
             </p>
           </details>
           <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300">
             <summary className="-mx-4 cursor-pointer py-3 px-4">
-              How can I use Holly?
+              Come faremo il progetto?
             </summary>
             <p>
-              Holly is licensed under the MIT License, which means you can use
-              it for personal and commercial projects for free.
-            </p>
-            <p>
-              You can also modify Holly to your needs, but you can't
-              redistribute it or sell it as a template.
+            Ti proponiamo diversi progetti realizzabili in base alle tue esigenze e andiamo a decidere insieme quello più adatto a diventare l’opera che vorrai sulla tua serranda o negozio.
             </p>
           </details>
           <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300">
             <summary className="-mx-4 cursor-pointer py-3 px-4">
-              Can I contribute to Holly?
+            Come realizziamo l'opera?
             </summary>
             <p>
-              Yes, you can! Holly is an open source project, and you can
-              contribute to it on{' '}
-              <a href="https://github.com/lukemcdonald/holly-react">GitHub</a>.
+            Realizziamo e curiamo nei minimi dettagli l’opera assicurandoti un risultato ottimale. Garantiamo la durata evitandoti nuovi interventi che ti comporterebbero spese inutili. 
             </p>
           </details>
         </ArticleContent>
@@ -56,7 +41,7 @@ export default function FaqsPage() {
             className="mx-auto lg:aspect-[5/7] lg:w-full"
             width="420"
             height="640"
-            src="https://picsum.photos/420/640?grayscale"
+            src="../images/357837853_294556966465385_1343375527504111735_n.jpg"
           />
         </ArticleMedia>
       </Article>

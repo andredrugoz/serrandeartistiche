@@ -3,15 +3,15 @@
   "name": "holly-react",
   "description": "React version of Holly",
   "author": "Luke McDonald (https://lukemcdonald.com/)",
-  "homepage": "https://lukemcdonald.github.io/holly-react",
+  "homepage": "",
   "keywords": [],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lukemcdonald/holly-react.git"
+    "url": "https://github.com/andredrugoz/serrandeartistiche.git"
   },
   "bugs": {
-    "url": "https://github.com/lukemcdonald/holly-react/issues"
+    "url": ""
   },
   "scripts": {
     "build": "NODE_ENV=production run-s build:*",
