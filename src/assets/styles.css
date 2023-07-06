@@ -276,12 +276,11 @@ button,
 [role="button"] {
   cursor: pointer;
 }
-.copy {
-  color:#000!important; 
+button.btn-tr, button.btn-tr:hover {
+  border:1px solid #999!important;
 }
-.btn-tr,
-.btn-tr:hover {
-  border: 1px solid #3c3c3c!important;
+.copy {
+  color:#000;
 }
 /*
 Make sure disabled buttons don't get the pointer cursor.
@@ -1295,11 +1294,6 @@ select {
 .justify-between {
   justify-content: space-between;
 }
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1421,10 +1415,6 @@ select {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
 .font-bold {
   font-weight: 700;
 }
@@ -1445,9 +1435,6 @@ select {
 }
 .leading-4 {
   line-height: 1rem;
-}
-.leading-10 {
-  line-height: 2.5rem;
 }
 .tracking-normal {
   letter-spacing: 0em;
@@ -1496,7 +1483,6 @@ select {
   --tw-border-opacity: 1;
   border-color: rgb(165 180 252 / var(--tw-border-opacity));
 }
-
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
@@ -1570,7 +1556,6 @@ select {
   }
   .lg\:justify-start {
     justify-content: flex-start;
-    color: black;
   }
   .lg\:justify-end {
     justify-content: flex-end;
