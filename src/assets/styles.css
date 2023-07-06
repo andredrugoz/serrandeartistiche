@@ -1344,9 +1344,9 @@ select {
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
-.from-primary-600 {
-  --tw-gradient-from: #4f46e5;
-  --tw-gradient-to: rgb(79 70 229 / 0);
+.from-primary-800 {
+  --tw-gradient-from: #3730a3;
+  --tw-gradient-to: rgb(55 48 163 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .from-secondary-500 {
@@ -1354,19 +1354,11 @@ select {
   --tw-gradient-to: rgb(244 63 94 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
-.from-primary-800 {
-  --tw-gradient-from: #3730a3;
-  --tw-gradient-to: rgb(55 48 163 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
 .to-primary-400 {
   --tw-gradient-to: #818cf8;
 }
 .to-secondary-400 {
   --tw-gradient-to: #fb7185;
-}
-.to-primary-200 {
-  --tw-gradient-to: #c7d2fe;
 }
 .px-6 {
   padding-left: 1.5rem;
@@ -1561,21 +1553,6 @@ select {
   }
   .lg\:aspect-\[5\/7\] {
     aspect-ratio: 5/7;
-  }
-  .lg\:aspect-\[3\/5\] {
-    aspect-ratio: 3/5;
-  }
-  .lg\:aspect-\[1\/3\] {
-    aspect-ratio: 1/3;
-  }
-  .lg\:aspect-\[1\/2\] {
-    aspect-ratio: 1/2;
-  }
-  .lg\:aspect-\[1\/1\] {
-    aspect-ratio: 1/1;
-  }
-  .lg\:aspect-\[0\/1\] {
-    aspect-ratio: 0/1;
   }
   .lg\:w-full {
     width: 100%;
