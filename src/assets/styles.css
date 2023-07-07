@@ -1763,7 +1763,7 @@ select {
     padding-right: 5rem;
   }
   .lg\:pt-16 {
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
   .lg\:prose-xl :where(.lg\:prose-xl > :first-child):not(:where([class~="not-prose"] *)) {
     margin-top: 0;

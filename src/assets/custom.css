@@ -42,3 +42,9 @@ h1 {
 .mint {
   font-palette: --Mint;
 }
+
+@media (min-width: 1024px) {
+  .lg\:pt-16 {
+    padding-top: 0!important;
+  }
+}
