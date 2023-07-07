@@ -2,7 +2,7 @@ import React from 'react';
 import emailjs from "emailjs-com";
 import { Article, ArticleContent, ArticleMedia } from '@/components/article'
 import { Layout } from '@/components/layout'
-import immagine from "../images/358579785_806237231159559_1116270722449275961_n.jpg"
+import immagine from "../images/358071947_930950221323392_4951146377855994685_n.jpg"
 import 'bootstrap/dist/css/bootstrap.css'
 
 emailjs.init('SN92J-1D6ikUavlWa');
