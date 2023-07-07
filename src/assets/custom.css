@@ -42,9 +42,17 @@ h1 {
 .mint {
   font-palette: --Mint;
 }
-
+.btn-tr {
+  background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ccc;
+    text-shadow: none;
+}
 @media (min-width: 1024px) {
   .lg\:pt-16 {
     padding-top: 0!important;
+    font-family: cursive;
   }
 }
