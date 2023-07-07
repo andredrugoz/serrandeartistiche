@@ -11,6 +11,7 @@
 h1 {
   margin: 0;
   word-break: break-word;
+  
   font-size: 45px;
   font-family: 'Rocher';
 }
@@ -56,6 +57,10 @@ h2 {
     border-radius: 10px;
     box-shadow: 5px 5px 5px #ccc;
     text-shadow: none;
+}
+.px-16 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 @media (min-width: 1024px) {
   .lg\:pt-16 {
