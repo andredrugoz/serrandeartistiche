@@ -1,6 +1,8 @@
 import { Article, ArticleContent, ArticleMedia } from '@/components/article'
 import { Layout } from '@/components/layout'
 import immagine from "../images/357837853_294556966465385_1343375527504111735_n.jpg"
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 export default function FaqsPage() {
   return (
@@ -15,7 +17,7 @@ export default function FaqsPage() {
             Come avviene il sopralluogo?
             </summary>
             <p>
-            Da oltre 5 anni siamo l’azienda di riferimento nel ripristino delle serrande, offrendo i migliori street artist in circolazione e garantendo i risultati, fissa un sopralluogo gratuito dalla nostra <a href="/support">pagina di Contatti</a>. 
+            Da oltre 5 anni siamo l’azienda di riferimento nel ripristino delle serrande, offrendo i migliori street artist in circolazione e garantendo i risultati, fissa un sopralluogo gratuito dalla nostra <Link to='/support'>pagina di Contatti</Link>. 
             </p>
           </details>
           <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300">

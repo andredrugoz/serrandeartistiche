@@ -163,6 +163,7 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
+  -webkit-appearance: button; /* 1 */
   background-color: transparent; /* 2 */
   background-image: none; /* 2 */
 }
@@ -196,6 +197,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 [type='search'] {
+  -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 /*
@@ -296,6 +298,7 @@ iframe,
 embed,
 object {
   display: block; /* 1 */
+  vertical-align: middle; /* 2 */
 }
 /*
 Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
@@ -1225,6 +1228,9 @@ select {
 .inline-flex {
   display: inline-flex;
 }
+.contents {
+  display: contents;
+}
 .hidden {
   display: none;
 }
@@ -1433,13 +1439,13 @@ select {
 .tracking-normal {
   letter-spacing: 0em;
 }
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(100 116 139 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .no-underline {
   text-decoration-line: none;
@@ -1766,15 +1772,4 @@ select {
     --tw-text-opacity: 1;
     color: rgb(148 163 184 / var(--tw-text-opacity));
   }
-}
-button.btn-tr,button.btn-tr:hover { 
-      outline: none;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    font: bold 12px Arial, Helvetica, sans-serif;
-    color: #fff;
-    padding: 10px 20px;
-    border: solid 1px #830000;
-    background: #830000;
 }

@@ -9,7 +9,7 @@ export function Footer() {
           <NavLinks className="mb-6 inline-flex w-full flex-none justify-center lg:order-1 lg:mb-0 lg:flex lg:w-1/2 lg:justify-end" />
           <SocialLinks className="mb-6 inline-flex w-full flex-none justify-center lg:flex lg:justify-end" />
           <div className="mb-6 inline-flex w-full flex-none justify-center lg:w-1/2 lg:justify-start">
-            &copy; Serrande Artistiche Made with ❤️ by&nbsp;<a href="https://CheckupDigitale.com/" target="_blank">CheckupDigitale</a>
+            &copy; 2023 Serrande Artistiche - by&nbsp;<a href="https://CheckupDigitale.com/" target="_blank">CheckupDigitale</a>
           </div>
         </div>
       </div>
