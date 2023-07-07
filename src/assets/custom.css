@@ -59,8 +59,7 @@ h2 {
     text-shadow: none;
 }
 .px-16 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  padding: 0 2.5rem  5rem  2.5rem;
 }
 @media (min-width: 1024px) {
   .lg\:pt-16 {
