@@ -1228,9 +1228,6 @@ select {
 .inline-flex {
   display: inline-flex;
 }
-.contents {
-  display: contents;
-}
 .hidden {
   display: none;
 }
@@ -1544,6 +1541,9 @@ select {
   }
   .lg\:aspect-\[5\/7\] {
     aspect-ratio: 5/7;
+  }
+  .lg\:aspect-\[5\/3\] {
+    aspect-ratio: 5/3;
   }
   .lg\:w-full {
     width: 100%;
