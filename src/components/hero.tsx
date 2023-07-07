@@ -12,10 +12,12 @@ export function Hero({
   content,
   illustration,
   title,
+  subtitle,
 }: {
   content: string
   illustration?: ReactNode
   title: string
+  subtitle: string
 }) {
   const scrollRevealRef = useRef<ScrollRevealRefElement[]>([])
 
@@ -45,7 +47,8 @@ export function Hero({
             className="hero-copy bg-white pt-10 pb-16 lg:pt-16 lg:pr-20"
           >
             <div className="mx-auto w-full max-w-3xl">
-              <h1 className="purples">{title}</h1>
+            <h1 className="purples">{title}</h1>
+            <h2 className="grays">{subtitle}</h2>
               <p
                 ref={(el: ScrollRevealRefElement) =>
                   scrollRevealRef.current.push(el)

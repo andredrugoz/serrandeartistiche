@@ -11,8 +11,15 @@
 h1 {
   margin: 0;
   word-break: break-word;
-  margin-bottom: 45px;
   font-size: 45px;
+  font-family: 'Rocher';
+}
+
+h2 {
+  margin: 0;
+  word-break: break-word;
+  margin-bottom: 45px;
+  font-size: 25px;
   font-family: 'Rocher';
 }
 
