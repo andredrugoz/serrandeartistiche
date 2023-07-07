@@ -1362,7 +1362,7 @@ select {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 .from-primary-800 {
-  --tw-gradient-from: #00858b;
+  --tw-gradient-from: #3730a3;
   --tw-gradient-to: rgb(55 48 163 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
@@ -1372,7 +1372,7 @@ select {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .to-primary-400 {
-  --tw-gradient-to: #4c549f;
+  --tw-gradient-to: #818cf8;
 }
 .to-secondary-400 {
   --tw-gradient-to: #fb7185;

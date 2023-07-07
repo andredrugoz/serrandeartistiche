@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import App from './app'
 
 import './assets/styles.css'
-import './assets/custom.scss'
+import './assets/custom.css'
 
 const root = document.getElementById('root') as HTMLElement
 createRoot(root).render(
