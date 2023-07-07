@@ -38,7 +38,7 @@ const ContactForm = () => {
   return (
     <Layout>
       <Article>
-        <ArticleContent title="Contattaci">
+        <ArticleContent title="Contatti">
         <p>🆓 Sopralluogo gratuito a Milano</p>
         <p>✅ Risultato Garantito nel tempo</p>
         <p>📲 +39 347 6428 424</p>

@@ -3,18 +3,16 @@
   src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
 }
 
-body {
-  /*font-family: 'Rocher';*/
-  text-align: center;
-  font-size: 50px;
-  height: 100vh;
+.text-white {
+  font-family: 'Rocher';
   
 }
 
 h1 {
   margin: 0;
   word-break: break-word;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
+  font-size: 50px;
   font-family: 'Rocher';
 }
 
