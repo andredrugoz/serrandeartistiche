@@ -19,9 +19,7 @@ export function ArticleContent({
       <div className=" prose mx-auto py-10 lg:pr-20 lg:pt-16 lg:prose-xl">
         {title && (
           <header>
-            <h1 className="mt-12 mb-3 text-4xl font-bold lg:text-5xl lg:leading-tight">
-              {title}
-            </h1>
+            <span className="sticker" data-text={title}><span>{title}</span></span>
           </header>
         )}
 

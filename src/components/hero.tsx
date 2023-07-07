@@ -45,7 +45,7 @@ export function Hero({
             className="hero-copy bg-white pt-10 pb-16 lg:pt-16 lg:pr-20"
           >
             <div className="mx-auto w-full max-w-3xl">
-            <span className="sticker" data-text="STREET ART e RIQUALIFICAZIONE URBANA"><span>{title}</span></span>
+            <span className="sticker" data-text={title}><span>{title}</span></span>
               <p
                 ref={(el: ScrollRevealRefElement) =>
                   scrollRevealRef.current.push(el)
