@@ -11,8 +11,9 @@ export default function AboutPage() {
           <p>Siamo un’azienda leader nel ripristino di serrande a Milano e in tutto  il territorio nazionale.</p>
           <p>Mettiamo a tua disposizione una  squadra di esperti altamente qualificati che si dedicano con passione a trasformare la tua saracinesca in un’opera d’arte unica e irresistibile.</p>    
           <p>La nostra missione è garantire risultati di alta qualità, offrendo servizi di livello superiore che soddisfano le tue aspettative.</p>
+          <h2>Il progetto</h2>
+          <p>Diamo nuova vita alle tue serrande rendendole uno strumento pubblicitario attrattivo per il tuo negozio.</p>
         </ArticleContent>
-
         <ArticleMedia>
           <img
             alt="serrande artistiche"
