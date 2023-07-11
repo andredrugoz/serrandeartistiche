@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import ScrollReveal from 'scrollreveal'
-import immagine from "../images/serranda_home.jpg"
+import immagine from "../images/paint_home_n.jpg"
 import { BackgroundGradient } from './background-gradient'
 
 export function HeroIllustration() {
