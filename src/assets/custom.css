@@ -62,7 +62,6 @@ h2 {
   padding: 0 2.5rem  5rem  2.5rem;
 }
 .m-0 {
-  margin: 0 auto!important;
   max-width: 150px!important;
 }
 .m-6 {
@@ -72,11 +71,16 @@ h2 {
   margin-top: -30px;
 }
 .px-16 {
-  padding: 0 2.5rem 0.2rem;
+  padding: 0 2.5rem 1.5rem;
 }
 @media (min-width: 1024px) {
   .lg\:pt-16 {
     padding-top: 0!important;
     font-family: cursive;
   }
+  @media (max-width: 1024px) {
+  .m-0 {
+    margin: 0 auto!important;
+  }
+}
 }
