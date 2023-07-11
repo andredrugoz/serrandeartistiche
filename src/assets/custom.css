@@ -5,7 +5,7 @@
 
 .text-white {
   font-family: 'Rocher';
-  
+  font-size: 20px!important;
 }
 
 h1 {
@@ -64,9 +64,6 @@ h2 {
 .m-0 {
   max-width: 150px!important;
 }
-.m-6 {
-  font-size: 20px;
-}
 .lg\:p-0 {
   margin-top: -30px;
 }
@@ -78,9 +75,9 @@ h2 {
     padding-top: 0!important;
     font-family: cursive;
   }
+}
   @media (max-width: 1024px) {
   .m-0 {
     margin: 0 auto!important;
   }
-}
 }
