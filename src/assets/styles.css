@@ -1702,6 +1702,7 @@ select {
   }
   .lg\:p-0 {
     padding: 0px;
+    margin-top: -30px;
   }
   .lg\:py-20 {
     padding-top: 5rem;
