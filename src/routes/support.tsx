@@ -25,6 +25,7 @@ const ContactForm = () => {
       name: name.value,
       to_name: "serrandeartistiche",
       from_name: name.value,
+      from_email: email.value,
       message: message.value,
       })
       .then(function(response) {
