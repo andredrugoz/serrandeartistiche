@@ -63,7 +63,7 @@ const ContactForm = () => {
               </label>
               <textarea className="form-control" id="message" required />
             </div>
-            <div className="mb-3"><checkbox id="privacy" required />Accetto l'informativa alla Privacy</div>
+            <div className="mb-3"><input type="checkbox" id="privacy" required />Accetto l'informativa alla Privacy</div>
             <button className="btn btn-tr" type="submit">
               {formStatus}
             </button>
