@@ -36,7 +36,7 @@ export function SocialLinkItem({
 }) {
   return (
     <li className="ml-4">
-      <a href={link.url}>
+      <a href={link.url} target="_blank">
         <span className="sr-only">{link.name}</span>
         <div dangerouslySetInnerHTML={{ __html: link.svg }} />
       </a>
