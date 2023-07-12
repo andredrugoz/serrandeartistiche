@@ -64,7 +64,7 @@ const ContactForm = () => {
               </label>
               <textarea className="form-control" id="message" required />
             </div>
-            <div className="mb-3"><input className="form-control" type="checkbox" id="privacy" required />&nbsp; Accetto l'informativa alla Privacy</div>
+            <div className="mb-3"><input className="form-control" type="checkbox" id="privacy" required />&nbsp; Accetto l'informativa alla <a href="https://vercel.com/legal/privacy-policy" target="_blank">Privacy</a></div>
             <button className="btn btn-tr" type="submit">
               {formStatus}
             </button>
